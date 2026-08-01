@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.proton.ai/
+status_page: https://status.proton.ai/
+status_page_provider: Atlassian Statuspage (protonai.statuspage.io)
+support: https://help.proton.ai/
+versioning:
+  scheme: unknown
+  notes: >-
+    No public versioning or deprecation policy was found. The Proton API is documented as a
+    Postman collection at api.proton.ai without a published version scheme, Sunset/Deprecation
+    header policy, or SLA page. Fields left unknown rather than fabricated.
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+deprecated_operations: []

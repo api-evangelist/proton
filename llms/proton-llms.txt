@@ -1,0 +1,28 @@
+# Proton.ai
+
+> Proton.ai is an AI-powered industry cloud platform for wholesale and B2B distributors. It centralizes a distributor's customer, product, and transactional data and applies deep-learning models to deliver real-time product recommendations and automate CRM, e-commerce, order, and quote workflows. Proton.ai exposes an AI REST API (documented via Postman) that returns product recommendations and performs platform actions, authenticated with a static API key in the request header. Boston-based; $20M Series A led by Felicis Ventures.
+
+## APIs
+
+- [Proton API](https://api.proton.ai/): AI REST API for product recommendations and platform actions (Postman documentation).
+
+## Docs
+
+- [API Documentation (Postman)](https://api.proton.ai/): Public Postman collection documenting the Proton API.
+- [Help Center](https://help.proton.ai/): Product and support documentation.
+- [Integrations](https://www.proton.ai/integration): Available platform integrations.
+- [Blog](https://www.proton.ai/blog): Company and product blog.
+
+## Operations
+
+- [Status Page](https://status.proton.ai/): Live platform status (Atlassian Statuspage).
+- [Trust / Security](https://www.proton.ai/security): Security posture — SOC 2 and GDPR (Drata trust center).
+
+## Legal
+
+- [Terms of Use](https://www.proton.ai/terms-of-use)
+- [Privacy Policy](https://www.proton.ai/privacy-policy)
+
+## Company
+
+- [Website](https://www.proton.ai/): AI industry cloud platform for distributors.

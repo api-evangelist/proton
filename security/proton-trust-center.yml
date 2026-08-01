@@ -1,0 +1,14 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://www.proton.ai/security
+url: https://www.proton.ai/security
+certifications:
+- SOC 2
+- GDPR
+evidence:
+- source: https://www.proton.ai/security
+  keywords:
+  - soc 2
+  - trust center
+  - gdpr

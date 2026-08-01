@@ -1,8 +1,27 @@
 aid: proton
-name: Proton
-description: 'Proton is a company surfaced as a portfolio company of crv, felicis and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/proton.png
+name: Proton.ai
+description: 'Proton.ai is an AI-powered industry cloud platform for wholesale and B2B distributors.
+  It connects and centralizes a distributor''s customer, product, and transactional data across
+  disparate systems, then applies deep-learning models to produce real-time product recommendations,
+  automate CRM and e-commerce workflows, enrich product data, and streamline order and quote
+  processing. Proton.ai exposes an AI REST API (documented via Postman at api.proton.ai) that
+  returns product recommendations and performs actions inside the Proton platform, authenticated
+  with a static API key supplied in the request header. The company is based in Boston and raised
+  a $20M Series A led by Felicis Ventures. This profile was surfaced as a VC-portfolio lead and
+  enriched by the API Evangelist pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/proton/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,18 +30,86 @@ x-backed-by:
 - felicis
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-identity-note: 'Stub was initially seeded with website proton.me (Proton AG, an unrelated Swiss
+  privacy company). Corrected to proton.ai — the Felicis/CRV-backed B2B distributor AI platform
+  that matches the consumer/portfolio provenance.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Consumer
-apis: []
+- Artificial Intelligence
+- Distribution
+- Wholesale
+- B2B
+- Sales
+- Recommendations
+- CRM
+- e-Commerce
+apis:
+- name: Proton API
+  description: 'AI REST API returning product recommendations and performing actions in the Proton.ai
+    distributor platform. Authenticated with a static API key in the request header. Documented as
+    a public Postman collection at api.proton.ai.'
+  humanURL: https://api.proton.ai/
+  baseURL: https://api.proton.ai
+  tags:
+  - Artificial Intelligence
+  - Recommendations
+  - Distribution
+  properties:
+  - type: APIReference
+    url: https://api.proton.ai/
+  - type: Postman
+    url: https://api.proton.ai/
+  - type: Authentication
+    url: authentication/proton-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
 common:
+- type: TrustCenter
+  url: security/proton-trust-center.yml
 - type: Website
-  url: https://proton.me/
+  url: https://www.proton.ai/
+- type: DeveloperPortal
+  url: https://api.proton.ai/
+- type: Documentation
+  url: https://api.proton.ai/
+- type: APIReference
+  url: https://api.proton.ai/
+- type: Postman
+  url: https://api.proton.ai/
+- type: HelpCenter
+  url: https://help.proton.ai/
+- type: Support
+  url: https://help.proton.ai/
+- type: StatusPage
+  url: https://status.proton.ai/
+- type: Blog
+  url: https://www.proton.ai/blog
+- type: Integrations
+  url: https://www.proton.ai/integration
+- type: Compliance
+  url: https://www.proton.ai/security
+- type: TermsOfService
+  url: https://www.proton.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.proton.ai/privacy-policy
+- type: Authentication
+  url: authentication/proton-authentication.yml
+- type: DomainSecurity
+  url: security/proton-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/proton-lifecycle.yml
+- type: WellKnown
+  url: well-known/proton-well-known.yml
+- type: LLMsTxt
+  url: llms/proton-llms.txt
