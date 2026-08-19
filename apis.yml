@@ -33,7 +33,7 @@ x-tier-reason: portfolio-lead
 x-identity-note: 'Stub was initially seeded with website proton.me (Proton AG, an unrelated Swiss
   privacy company). Corrected to proton.ai — the Felicis/CRV-backed B2B distributor AI platform
   that matches the consumer/portfolio provenance.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
